@@ -991,7 +991,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Copyright (C) 2022 \u305F\u306A\u304B\u3086\u3046"
+  m_text: "Copyright (C) 2022 \u8352\u5DDD\u9F8D"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b6ffdfb71c28b9f43939adf342d74918, type: 2}
   m_sharedMaterial: {fileID: -3320003623816989006, guid: b6ffdfb71c28b9f43939adf342d74918, type: 2}
