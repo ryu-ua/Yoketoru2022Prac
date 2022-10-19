@@ -4,8 +4,16 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    float cameraDistance;
+    [Tooltip("速さ"), SerializeField]
+    float speed = 20;
 
+    float cameraDistance;
+    Rigidbody rb;
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody>();        
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -13,12 +21,27 @@ public class Player : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         var mpos = Input.mousePosition;
         //Debug.Log(mpos);
         mpos.z = cameraDistance;
         var wp = Camera.main.ScreenToWorldPoint(mpos);
-        transform.position = wp;
+
+        // to = 現在位置から目的地wpへの向きと大きさ(ベクトル)
+        Vector3 to = wp - transform.position;
+
+        if(to.magnitude<0.01f)
+        {
+            rb.velocity = Vector3.zero;
+        }
+        else
+        {  
+            float step = speed * Time.deltaTime;
+            float dist = Mathf.Min(to.magnitude, step);
+            float v = dist / Time.deltaTime;
+            rb.velocity = v * to.normalized;
+        }
+        //transform.position = wp;
     }
 }
