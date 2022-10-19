@@ -184,7 +184,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &159083278
 Transform:
@@ -559,6 +559,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4771454900801036909, guid: d15380eb3421f89499f662e26a29a4f3, type: 3}
+      propertyPath: spawnBounds.m_Extent.x
+      value: 6.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4771454900801036909, guid: d15380eb3421f89499f662e26a29a4f3, type: 3}
+      propertyPath: spawnBounds.m_Extent.y
+      value: 3.76
+      objectReference: {fileID: 0}
     - target: {fileID: 2554335827386324714, guid: d15380eb3421f89499f662e26a29a4f3, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -726,6 +734,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5572463406213671587, guid: 9f4edc0de17d1d94ab404812d1a12c44, type: 3}
+      propertyPath: spawnBounds.m_Extent.x
+      value: 6.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572463406213671587, guid: 9f4edc0de17d1d94ab404812d1a12c44, type: 3}
+      propertyPath: spawnBounds.m_Extent.y
+      value: 3.76
+      objectReference: {fileID: 0}
     - target: {fileID: 7738471450740702535, guid: 9f4edc0de17d1d94ab404812d1a12c44, type: 3}
       propertyPath: m_Name
       value: Coin (1)
@@ -754,7 +770,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &972030724
 Transform:
@@ -986,7 +1002,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1160798422
 Transform:
@@ -1083,7 +1099,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1350358511
 Transform:
@@ -1177,7 +1193,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1464168232
 Transform:
@@ -1622,6 +1638,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5572463406213671587, guid: 9f4edc0de17d1d94ab404812d1a12c44, type: 3}
+      propertyPath: spawnBounds.m_Extent.x
+      value: 6.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572463406213671587, guid: 9f4edc0de17d1d94ab404812d1a12c44, type: 3}
+      propertyPath: spawnBounds.m_Extent.y
+      value: 3.76
+      objectReference: {fileID: 0}
     - target: {fileID: 7738471450740702535, guid: 9f4edc0de17d1d94ab404812d1a12c44, type: 3}
       propertyPath: m_Name
       value: Coin (2)
@@ -1842,6 +1866,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5572463406213671587, guid: 9f4edc0de17d1d94ab404812d1a12c44, type: 3}
+      propertyPath: spawnBounds.m_Extent.x
+      value: 6.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572463406213671587, guid: 9f4edc0de17d1d94ab404812d1a12c44, type: 3}
+      propertyPath: spawnBounds.m_Extent.y
+      value: 3.76
+      objectReference: {fileID: 0}
     - target: {fileID: 7738471450740702535, guid: 9f4edc0de17d1d94ab404812d1a12c44, type: 3}
       propertyPath: m_Name
       value: Coin
@@ -1855,6 +1887,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4771454900801036909, guid: d15380eb3421f89499f662e26a29a4f3, type: 3}
+      propertyPath: spawnBounds.m_Extent.x
+      value: 6.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4771454900801036909, guid: d15380eb3421f89499f662e26a29a4f3, type: 3}
+      propertyPath: spawnBounds.m_Extent.y
+      value: 3.76
+      objectReference: {fileID: 0}
     - target: {fileID: 2554335827386324714, guid: d15380eb3421f89499f662e26a29a4f3, type: 3}
       propertyPath: m_RootOrder
       value: 6
