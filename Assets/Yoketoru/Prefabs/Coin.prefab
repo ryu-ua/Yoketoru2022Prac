@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 4210971004094955869}
   - component: {fileID: 4531890899621028508}
   - component: {fileID: 5572463406213671587}
+  - component: {fileID: -8591997301061913017}
+  - component: {fileID: -9182197726821230297}
   m_Layer: 0
   m_Name: Coin
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58,12 +60,12 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7738471450740702535}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 86242ebbd84f91345af447a1f94e0bf9, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.25
-  m_Center: {x: 0, y: 0.21, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5572463406213671587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,6 +76,35 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 855f9d34b50dbbb4eaa4688b1e5351e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnBounds:
+    m_Center: {x: -0.9, y: -0.66, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+--- !u!114 &-8591997301061913017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738471450740702535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb06eff384b30aa4e85235690cc9b552, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedMin: 1
+  speedMax: 5
+--- !u!114 &-9182197726821230297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738471450740702535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070d0ae4b4ca2e84ea1e60adf408eb1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &6002173651556680561
