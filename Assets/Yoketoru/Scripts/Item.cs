@@ -10,7 +10,7 @@ public class Item : MonoBehaviour
 
     static int count;
 
-    private void Start()
+    public Item():base() 
     {
         count++;
         //Debug.Log(count);
@@ -26,8 +26,7 @@ public class Item : MonoBehaviour
             count --;
             if(count<=0)
             {
-                SceneManager.LoadScene("Clear", LoadSceneMode.Additive);
-                Time.timeScale = 0;
+                GameManager.ToClear();
             }
         }
     }
