@@ -424,7 +424,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.103462085, g: 0.6958365, b: 0.7075472, a: 0}
+  m_BackGroundColor: {r: 0.10145959, g: 0.16491634, b: 0.3773585, a: 0.70980394}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -578,7 +578,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 32.72}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1261353499
@@ -601,7 +601,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u3088\u3051\u3068\u308B2022"
+  m_text: SPACE RUN
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b6ffdfb71c28b9f43939adf342d74918, type: 2}
   m_sharedMaterial: {fileID: -3320003623816989006, guid: b6ffdfb71c28b9f43939adf342d74918, type: 2}
@@ -628,8 +628,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64
-  m_fontSizeBase: 64
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1088,6 +1088,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2657648118035062678, guid: e307ef3addfbf2444859f5a2b4f92071, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 06355349a9aa3834bb61d797c252e8bf, type: 3}
     - target: {fileID: 2657648118035062679, guid: e307ef3addfbf2444859f5a2b4f92071, type: 3}
       propertyPath: m_RootOrder
       value: 5
