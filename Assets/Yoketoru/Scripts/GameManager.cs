@@ -25,7 +25,6 @@ public class GameManager : MonoBehaviour
     {
         Instance = this;
         ClearScore();
-        Item.ClearCount();
         time=StartTime;
         clear = false;
         gameover = false;

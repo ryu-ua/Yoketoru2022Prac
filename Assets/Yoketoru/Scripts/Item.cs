@@ -23,16 +23,9 @@ public class Item : MonoBehaviour
             GameManager.AddPoint(point);
             Destroy(gameObject);
 
-            count --;
-            if(count<=0)
-            {
-                GameManager.ToClear();
-            }
+            
         }
     }
 
-    public static void ClearCount()
-    {
-        count = 0;
-    }
+ 
 }
